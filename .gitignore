@@ -1,0 +1,15 @@
+# Build intermediates
+work/build/
+
+# Android signing sidecar files
+*.idsig
+
+# Local/editor files
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+Desktop.ini
+
+# Keep release APK output in repository for convenience
+!outputs/cmcc-noupdate-api102-release.apk
